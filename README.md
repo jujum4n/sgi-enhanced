@@ -19,6 +19,8 @@ The cursors I take no credit in creating but am adding them as they make a nice 
 
 `sudo cp -r sgi /usr/share/icons`
 
+4) Under Mouse-> Themes Select "sgi"
+
 #### Inactive(Left) and Active Window (Right)
 
 ![Alt text](./docs/sgi-enhanced.png?raw=true "sgi-enhanced-gtk3 v0.1")
