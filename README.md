@@ -17,12 +17,15 @@ a plus (Essentially 2 of the application buttons in 1).
 1) Copy "sgi-enhanced" from "theme" into your /usr/share/themes directory (sudo needed)
 
 `sudo cp -r sgi-enhanced /usr/share/themes`
+
 2) Select sgi-enhanced theme in: Window Manager
 3) Copy "sgi" from "cursor" into your /usr/share/icons )(sudo needed)
 
 `sudo cp -r sgi /usr/share/icons`
 
 4) Use Wallpaper and Icons as you see fit
+=======
+5) Under Mouse-> Themes Select "sgi"
 
 #### Inactive(Left) and Active Window (Right)
 
@@ -35,7 +38,8 @@ a plus (Essentially 2 of the application buttons in 1).
 #### Red Irix Cursor States
 
 ![Alt text](./docs/cursor_example.png?raw=true "cursor states")
-#### Built With / Credits
+
+####Built with/Credits
 * [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 sgi xfce4 theme used as base - John Tsiombikas
 * [SGI Irix cursor](https://www.gnome-look.org/p/999497/) - SGI Irix cursor - BEHRZ
 * [Gimp](https://www.gimp.org/) - GNU Image Manipulator
