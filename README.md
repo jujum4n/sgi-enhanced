@@ -1,16 +1,18 @@
-# sgi-enhanced-gtk3 v0.1
+# sgi-enhanced v0.1
 
 #### Description
-Quick theme I tossed together using another sgi theme as a base. I disliked using the small square as a minimize button.
-I replaced it with the application menu button. I also disliked the fact that no escape button exists on Irix GUI.
-I modified the themes resource file to include a close button, I created an "irix" styled close button that is just
+[IRIX/SGI](https://en.wikipedia.org/wiki/IRIX) like theme for xfce4 I tossed together using another theme as a base. I disliked using the small square as a minimize button.
+I replaced it with the application menu button. I also disliked the fact that no escape button exists on IRIX GUI.
+I modified the themes resource file to include a close button, I created an "IRIX/SGI" styled close button that is just
 a plus (Essentially 2 of the application buttons in 1).
 
+Tested with (xfce4 - gtk3) on Xubuntu 16.04.x.
+
 #### Features
-- Irix like theme - xfce4 - gtk3 - (Tested with Xubuntu 16.04.x)
-- Irix like Red cursor style
-- Irix Icons
-- Irix Wallpapers
+- IRIX/SGI like theme - xfce4 - gtk3
+- IRIX/SGI like Red cursor style
+- IRIX/SGI Icons
+- IRIX/SGI Wallpapers
 
 #### Instructions
 
@@ -29,25 +31,25 @@ a plus (Essentially 2 of the application buttons in 1).
 
 #### Inactive(Left) and Active Window (Right)
 
-![Alt text](./docs/sgi-enhanced.png?raw=true "sgi-enhanced-gtk3 v0.1")
+![sgi-enhanced](./docs/sgi-enhanced.png?raw=true "sgi-enhanced-gtk3 v0.1")
 
-#### Example Irix Icons
+#### Example IRIX Icons
 
-![Alt text](./docs/icons.png?raw=true "cursor states")
+![icons](./docs/icons.png?raw=true "cursor states")
 
-#### Red Irix Cursor States
+#### Red IRIX Cursor States
 
-![Alt text](./docs/cursor_example.png?raw=true "cursor states")
+![cursor-states](./docs/cursor_example.png?raw=true "cursor states")
 
 #### Built with/Credits
-* [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 sgi xfce4 theme used as base - John Tsiombikas
-* [SGI Irix cursor](https://www.gnome-look.org/p/999497/) - SGI Irix cursor - BEHRZ
+* [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 SGI xfce4 theme - John Tsiombikas
+* [SGI IRIX cursor](https://www.gnome-look.org/p/999497/) - SGI/IRIX cursor - BEHRZ
 * [Gimp](https://www.gimp.org/) - GNU Image Manipulator
-* [Irix Icon Set](https://darkdoomer.deviantart.com/art/da-motherfuckin-irix-icon-set-179568520/) - Irix Icons and older Icons - darkdoomer
+* [IRIX Icon Set](https://darkdoomer.deviantart.com/art/da-motherfuckin-irix-icon-set-179568520/) - IRIX/SGI Icons + older Icons - darkdoomer
 
 #### Todo
 -   Fix bug another vertical spacer since 3 buttons instead of 2
--   More Irix window color themes
+-   More IRIX/SGI window color themes
 -   More Wallpapers
 -   Wine Theme
 -   GTK3 Stylesheets
