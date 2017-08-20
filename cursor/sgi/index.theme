@@ -1,0 +1,5 @@
+[Icon Theme]
+Name = sgi
+Comment = sgi cursor clone
+Example=default
+Inherits=core

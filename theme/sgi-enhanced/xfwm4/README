@@ -1,0 +1,11 @@
+SGI (4Dwm) xfce enhanced theme v1.0
+Copyright (C) Justin Chase 2017 <jujowned@gmail.com>
+Copyright (C) John Tsiombikas 2006 <nuclear@siggraph.org>
+
+You may modify and redistribute this theme freely provided that you include
+the copyright statement intact in any redistribution.
+
+This is a theme for xfce, based on the standard SGI 4Dwm look.
+It is derived from John Tsiombikas SGI theme, I modified it to have 3 buttons
+on the right side, swaped the minimize button to be = to application button
+Made my own close button, just used plus design with a shadow.
