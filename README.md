@@ -61,6 +61,8 @@ Tested with (xfce4 - gtk3) on Xubuntu 16.04.x.
 #### License
 This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
 
+Original concept and design copyright 1992-2004 Silicon Graphics, Inc.
+
 #### Acknowledgments
 * Thanks to anyone who's examples were used
 * Inspiration
