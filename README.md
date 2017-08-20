@@ -6,9 +6,13 @@ I replaced it with the application menu button. I also disliked the fact that no
 I modified the themes resource file to include a close button, I created an "irix" styled close button that is just
 a plus (Essentially 2 of the application buttons in 1).
 
-The cursors I take no credit in creating but am adding them as they make a nice addition to the entire theme.
+#### Features
+- Irix like theme - xfce4 - gtk3 - (Tested with Xubuntu 16.04.x)
+- Irix like Red cursor style
+- Irix Icons
+- Irix Wallpapers
 
-### Instructions
+#### Instructions
 
 1) Copy "sgi-enhanced" from "theme" into your /usr/share/themes directory (sudo needed)
 
@@ -18,30 +22,40 @@ The cursors I take no credit in creating but am adding them as they make a nice 
 
 `sudo cp -r sgi /usr/share/icons`
 
+4) Use Wallpaper and Icons as you see fit
+
 #### Inactive(Left) and Active Window (Right)
 
 ![Alt text](./docs/sgi-enhanced.png?raw=true "sgi-enhanced-gtk3 v0.1")
 
-#### Cursor States
+#### Example Irix Icons
+
+![Alt text](./docs/icons.png?raw=true "cursor states")
+
+#### Red Irix Cursor States
 
 ![Alt text](./docs/cursor_example.png?raw=true "cursor states")
-### Built With
+#### Built With / Credits
 * [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 sgi xfce4 theme used as base - John Tsiombikas
 * [SGI Irix cursor](https://www.gnome-look.org/p/999497/) - SGI Irix cursor - BEHRZ
 * [Gimp](https://www.gimp.org/) - GNU Image Manipulator
+* [Irix Icon Set](https://darkdoomer.deviantart.com/art/da-motherfuckin-irix-icon-set-179568520/) - Irix Icons and older Icons - darkdoomer
 
-### Todo
+#### Todo
+-   Fix bug another vertical spacer since 3 buttons instead of 2
 -   More Irix window color themes
+-   More Wallpapers
 -   Wine Theme
 -   GTK3 Stylesheets
+-   QT Stylesheets
 
-### Authors
+#### Authors
 * **Justin Chase** - [JustinChase](https://github.com/jujum4n)
 
-### License
+#### License
 This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
 
-### Acknowledgments
+#### Acknowledgments
 * Thanks to anyone who's examples were used
 * Inspiration
 * water
