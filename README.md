@@ -39,7 +39,7 @@ a plus (Essentially 2 of the application buttons in 1).
 
 ![Alt text](./docs/cursor_example.png?raw=true "cursor states")
 
-####Built with/Credits
+#### Built with/Credits
 * [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 sgi xfce4 theme used as base - John Tsiombikas
 * [SGI Irix cursor](https://www.gnome-look.org/p/999497/) - SGI Irix cursor - BEHRZ
 * [Gimp](https://www.gimp.org/) - GNU Image Manipulator
