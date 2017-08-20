@@ -13,6 +13,7 @@ The cursors I take no credit in creating but am adding them as they make a nice 
 1) Copy "sgi-enhanced" from "theme" into your /usr/share/themes directory (sudo needed)
 
 `sudo cp -r sgi-enhanced /usr/share/themes`
+
 2) Select sgi-enhanced theme in: Window Manager
 3) Copy "sgi" from "cursor" into your /usr/share/icons )(sudo needed)
 
@@ -25,6 +26,7 @@ The cursors I take no credit in creating but am adding them as they make a nice 
 #### Cursor States
 
 ![Alt text](./docs/cursor_example.png?raw=true "cursor states")
+
 ### Built With
 * [SGI gtk3](https://www.gnome-look.org/p/1015906/) - gtk3 sgi xfce4 theme used as base - John Tsiombikas
 * [SGI Irix cursor](https://www.gnome-look.org/p/999497/) - SGI Irix cursor - BEHRZ
