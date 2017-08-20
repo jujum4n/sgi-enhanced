@@ -25,9 +25,8 @@ Tested with (xfce4 - gtk3) on Xubuntu 16.04.x.
 
 `sudo cp -r sgi /usr/share/icons`
 
-4) Use Wallpaper and Icons as you see fit
-=======
-5) Under Mouse-> Themes Select "sgi"
+4) Under Mouse-> Themes Select "sgi"
+5) Use icon's and Wallpapers as you see fit
 
 #### Inactive(Left) and Active Window (Right)
 
