@@ -1,0 +1,25 @@
+GtkMenuItem {
+	/**
+	* Style properties inheritance:
+	*  GtkMenuItem->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Amount of space used up by arrow, relative to the menu item's font size. */
+	/* arrow-scaling: 0.8; */ /* gfloat, [0,2] */
+
+	/* Space between label and arrow. */
+	/* arrow-spacing: 10; */ /* gint, >= 0 */
+
+	/* Padding to left and right of the menu item. */
+	/* horizontal-padding: 3; */ /* gint, >= 0 */
+
+	/* Shadow type when item is selected. */
+	/* selected-shadow-type: GTK_SHADOW_NONE; */ /* GtkShadowType */
+
+	/* Space between icon and label. */
+	/* toggle-spacing: 5; */ /* gint, >= 0 */
+
+	/* The minimum desired width of the menu item in characters. */
+	/* width-chars: 12; */ /* gint, >= 0 */
+
+}

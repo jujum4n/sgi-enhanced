@@ -1,0 +1,16 @@
+GtkCalendar {
+	/**
+	* Style properties inheritance:
+	*  GtkCalendar->GtkWidget.
+	*/
+
+	/* Separation between week headers and main area. */
+	/* horizontal-separation: 4; */ /* gint, >= 0 */
+
+	/* The spacing around the day/week headers and main area. */
+	/* inner-border: 4; */ /* gint, >= 0 */
+
+	/* Space between day headers and main area. */
+	/* vertical-separation: 4; */ /* gint, >= 0 */
+
+}

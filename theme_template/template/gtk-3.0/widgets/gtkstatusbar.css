@@ -1,0 +1,10 @@
+GtkStatusbar {
+	/**
+	* Style properties inheritance:
+	*  GtkStatusbar->GtkHBox->GtkBox->GtkContainer->GtkWidget.
+	*/
+
+	/* Style of bevel around the statusbar text. */
+	/* shadow-type: GTK_SHADOW_IN; */ /* GtkShadowType */
+
+}

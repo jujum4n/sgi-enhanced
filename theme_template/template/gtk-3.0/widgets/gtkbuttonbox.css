@@ -1,0 +1,19 @@
+GtkButtonBox {
+	/**
+	* Style properties inheritance:
+	*  GtkButtonBox->GtkBox->GtkContainer->GtkWidget.
+	*/
+
+	/* Amount to increase child's size on either side. */
+	/* child-internal-pad-x: 4; */ /* gint, >= 0 */
+
+	/* Amount to increase child's size on the top and bottom. */
+	/* child-internal-pad-y: 0; */ /* gint, >= 0 */
+
+	/* Minimum height of buttons inside the box. */
+	/* child-min-height: 27; */ /* gint, >= 0 */
+
+	/* Minimum width of buttons inside the box. */
+	/* child-min-width: 85; */ /* gint, >= 0 */
+
+}

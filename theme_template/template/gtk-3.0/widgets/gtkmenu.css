@@ -1,0 +1,28 @@
+GtkMenu {
+	/**
+	* Style properties inheritance:
+	*  GtkMenu->GtkMenuShell->GtkContainer->GtkWidget.
+	*/
+
+	/* Indicates where scroll arrows should be placed. */
+	/* arrow-placement: GTK_ARROWS_BOTH; */ /* GtkArrowPlacement */
+
+	/* Arbitrary constant to scale down the size of the scroll arrow. */
+	/* arrow-scaling: 0.7; */ /* gfloat, [0,1] */
+
+	/* When scrolling, always show both arrows. */
+	/* double-arrows: TRUE; */ /* gboolean */
+
+	/* When the menu is a submenu, position it this number of pixels offset horizontally. */
+	/* horizontal-offset: -2; */ /* gint */
+
+	/* Extra space at the left and right edges of the menu. */
+	/* horizontal-padding: 0; */ /* gint, >= 0 */
+
+	/* When the menu is a submenu, position it this number of pixels offset vertically. */
+	/* vertical-offset: 0; */ /* gint */
+
+	/* Extra space at the top and bottom of the menu. */
+	/* vertical-padding: 1; */ /* gint, >= 0 */
+
+}

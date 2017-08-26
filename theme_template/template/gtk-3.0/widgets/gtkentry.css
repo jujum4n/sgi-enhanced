@@ -1,0 +1,19 @@
+GtkEntry {
+	/**
+	* Style properties inheritance:
+	*  GtkEntry->GtkWidget.
+	*/
+
+	/* The prelight style property determines whether activatable icons prelight on mouseover. */
+	/* icon-prelight: TRUE; */ /* gboolean */
+
+	/* Sets the text area's border between the text and the frame. */
+	/* inner-border: ; */ /* GtkBorder */
+
+	/* The invisible character is used when masking entry contents (in \"password mode\")"). */
+	/* invisible-char: 0; */ /* guint */
+
+	/* The border around the progress bar in the entry. */
+	/* progress-border: ; */ /* GtkBorder */
+
+}

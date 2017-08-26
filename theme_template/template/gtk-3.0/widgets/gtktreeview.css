@@ -1,0 +1,47 @@
+GtkTreeView {
+	/**
+	* Style properties inheritance:
+	*  GtkTreeView->GtkContainer->GtkWidget.
+	*/
+
+	/* Allow drawing of alternating color rows. */
+	/* allow-rules: TRUE; */ /* gboolean */
+
+	/* Color to use for even rows. */
+	/* even-row-color: ; */ /* GdkColor */
+
+	/* Size of the expander arrow. */
+	/* expander-size: 12; */ /* gint, >= 0 */
+
+	/* Dash pattern used to draw the tree view grid lines. */
+	/* grid-line-pattern: "\001\001"; */ /* gchar */
+
+	/* Width, in pixels, of the tree view grid lines. */
+	/* grid-line-width: 1; */ /* gint, >= 0 */
+
+	/* Horizontal space between cells. */
+	/* horizontal-separator: 2; */ /* gint, >= 0 */
+
+	/* Make the expanders indented. */
+	/* indent-expanders: TRUE; */ /* gboolean */
+
+	/* Color to use for odd rows. */
+	/* odd-row-color: ; */ /* GdkColor */
+
+	/* Dash pattern used to draw the tree view lines. */
+	/* tree-line-pattern: "\001\001"; */ /* gchar */
+
+	/* Width, in pixels, of the tree view lines. */
+	/* tree-line-width: 1; */ /* gint, >= 0 */
+
+	/* Vertical space between cells. */
+	/* vertical-separator: 2; */ /* gint, >= 0 */
+
+}
+
+/* Match any row in a GtkTreeView. */
+/*GtkTreeView row { ... } */
+
+/* Match even/odd numbered rows in a GtkTreeView. */
+/*GtkTreeView row:nth-child (even) { ... } */
+/*GtkTreeView row:nth-child (odd) { ... } */

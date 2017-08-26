@@ -1,0 +1,10 @@
+GtkPaned {
+	/**
+	* Style properties inheritance:
+	*  GtkPaned->GtkContainer->GtkWidget.
+	*/
+
+	/* Width of handle. */
+	/* handle-size: 5; */ /* gint, >= 0 */
+
+}

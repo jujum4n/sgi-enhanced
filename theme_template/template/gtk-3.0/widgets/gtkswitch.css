@@ -1,0 +1,10 @@
+GtkSwitch {
+	/**
+	* Style properties inheritance:
+	*  GtkSwitch->GtkWidget.
+	*/
+
+	/* The minimum width of the. */
+	/* slider-width: 36; */ /* gint, >= 36 */
+
+}

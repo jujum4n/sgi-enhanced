@@ -1,0 +1,27 @@
+/**
+ * Color definitions.
+ *
+ * Each color defined in this file is usable as a symbolic color
+ * in all files included after it.
+ *
+ * Color definitions have the format `@define-color <name> <value>;',
+ * where <name> is a name you choose, and <value> is a color definition.
+ * Defined colors can be used in rules with the syntax `@<name>'
+ *
+ * The most common color definition is a html color code: #rrbbgg
+ * For more information see (1) or (2).
+ *
+ * (1) file:///usr/share/devhelp/books/gtk3/GtkCssProvider.html#gtkcssprovider-symbolic-colors
+ * (2) http://developer.gnome.org/gtk3/3.1/GtkCssProvider.html#gtkcssprovider-symbolic-colors
+ */
+
+/* Some common color definitions
+ *
+ * @define-color base-color #ff00ff;
+ * @define-color background-color #ff00ff;
+ * @define-color forground-color #ff00ff;
+ * @define-color text-color #ff00ff;
+ */
+
+@define-color active-base #a59f80;
+@define-color inactive-base = #808080;

@@ -1,0 +1,10 @@
+GtkToolButton {
+	/**
+	* Style properties inheritance:
+	*  GtkToolButton->GtkToolItem->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Spacing in pixels between the icon and label. */
+	/* icon-spacing: 3; */ /* gint, >= 0 */
+
+}

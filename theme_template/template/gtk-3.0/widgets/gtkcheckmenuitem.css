@@ -1,0 +1,10 @@
+GtkCheckMenuItem {
+	/**
+	* Style properties inheritance:
+	*  GtkCheckMenuItem->GtkMenuItem->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Size of check or radio indicator. */
+	/* indicator-size: 16; */ /* gint, >= 0 */
+
+}

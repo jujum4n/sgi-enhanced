@@ -1,0 +1,42 @@
+GtkNotebook {
+	/**
+	* Style properties inheritance:
+	*  GtkNotebook->GtkContainer->GtkWidget.
+	*/
+
+	/* The "arrow-spacing" property defines the spacing between the scroll arrows and the tabs. */
+	/* arrow-spacing: 0; */ /* gint, >= 0 */
+
+	/* The "has-backward-stepper" property determines whether the standard backward arrow button is displayed. */
+	/* has-backward-stepper: TRUE; */ /* gboolean */
+
+	/* The "has-forward-stepper" property determines whether the standard forward arrow button is displayed. */
+	/* has-forward-stepper: TRUE; */ /* gboolean */
+
+	/* The "has-secondary-backward-stepper" property determines whether a second backward arrow button is displayed on the opposite end of the tab area. */
+	/* has-secondary-backward-stepper: FALSE; */ /* gboolean */
+
+	/* The "has-secondary-forward-stepper" property determines whether a second forward arrow button is displayed on the opposite end of the tab area. */
+	/* has-secondary-forward-stepper: FALSE; */ /* gboolean */
+
+	/* The "initial-gap" property defines the minimum size for the initial gap between the first tab. */
+	/* initial-gap: 0; */ /* gint, >= 0 */
+
+	/* The "tab-curvature" property defines size of tab curvature. */
+	/* tab-curvature: 1; */ /* gint, >= 0 */
+
+	/* The "tab-overlap" property defines size of tab overlap area. */
+	/* tab-overlap: 2; */ /* gint */
+
+}
+
+/* Match the first notebook tab. */
+/*GtkNotebook tab:first-child { ... } */
+/*GtkNotebook tab:nth-child(first) { ... } */
+
+/* Match the last notebook tab. */
+/*GtkNotebook tab:last-child { ... } */
+/*GtkNotebook tab:nth-child(last) { ... } */
+
+/* Match the labels in notebook tabs. */
+/*GtkNotebook tab GtkLabel { ... } */

@@ -1,0 +1,13 @@
+GtkIconView {
+	/**
+	* Style properties inheritance:
+	*  GtkIconView->GtkContainer->GtkWidget.
+	*/
+
+	/* Opacity of the selection box. */
+	/* selection-box-alpha: 64; */ /* guchar */
+
+	/* Color of the selection box. */
+	/* selection-box-color: ; */ /* GdkColor */
+
+}

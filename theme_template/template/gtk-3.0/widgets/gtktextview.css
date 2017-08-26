@@ -1,0 +1,10 @@
+GtkTextView {
+	/**
+	* Style properties inheritance:
+	*  GtkTextView->GtkContainer->GtkWidget.
+	*/
+
+	/* Color with which to draw error-indication underlines. */
+	/* error-underline-color: ; */ /* GdkColor */
+
+}

@@ -1,0 +1,10 @@
+GtkArrow {
+	/**
+	* Style properties inheritance:
+	*  GtkArrow->GtkMisc->GtkWidget.
+	*/
+
+	/* Amount of space used up by arrow. */
+	/* arrow-scaling: 0.7; */ /* gfloat, [0,1] */
+
+}

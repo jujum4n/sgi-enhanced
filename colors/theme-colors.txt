@@ -1,0 +1,3 @@
+Brown/Grey Theme
+active = #a59f80
+inactive = #808080

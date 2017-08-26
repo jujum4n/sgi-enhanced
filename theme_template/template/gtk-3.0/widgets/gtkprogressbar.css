@@ -1,0 +1,25 @@
+GtkProgressBar {
+	/**
+	* Style properties inheritance:
+	*  GtkProgressBar->GtkWidget.
+	*/
+
+	/* Minimum horizontal height of the progress bar. */
+	/* min-horizontal-bar-height: 20; */ /* gint, >= 1 */
+
+	/* The minimum horizontal width of the progress bar. */
+	/* min-horizontal-bar-width: 150; */ /* gint, >= 1 */
+
+	/* The minimum vertical height of the progress bar. */
+	/* min-vertical-bar-height: 80; */ /* gint, >= 1 */
+
+	/* The minimum vertical width of the progress bar. */
+	/* min-vertical-bar-width: 22; */ /* gint, >= 1 */
+
+	/* Extra spacing applied to the width of a progress bar. */
+	/* xspacing: 7; */ /* gint, >= 0 */
+
+	/* Extra spacing applied to the height of a progress bar. */
+	/* yspacing: 7; */ /* gint, >= 0 */
+
+}

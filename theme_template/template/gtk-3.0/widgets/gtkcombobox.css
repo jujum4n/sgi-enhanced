@@ -1,0 +1,19 @@
+GtkComboBox {
+	/**
+	* Style properties inheritance:
+	*  GtkComboBox->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Whether dropdowns should look like lists rather than menus. */
+	/* appears-as-list: FALSE; */ /* gboolean */
+
+	/* Sets the amount of space used up by the combobox arrow, proportional to the font size. */
+	/* arrow-scaling: 1; */ /* gfloat, [0,2] */
+
+	/* Sets the minimum size of the arrow in the combo box. */
+	/* arrow-size: 15; */ /* gint, >= 0 */
+
+	/* Which kind of shadow to draw around the combo box. */
+	/* shadow-type: GTK_SHADOW_NONE; */ /* GtkShadowType */
+
+}

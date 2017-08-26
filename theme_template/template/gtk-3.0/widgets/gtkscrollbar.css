@@ -1,0 +1,25 @@
+GtkScrollbar {
+	/**
+	* Style properties inheritance:
+	*  GtkScrollbar->GtkRange->GtkWidget.
+	*/
+
+	/* Don't change slider size, just lock it to the minimum length. */
+	/* fixed-slider-length: FALSE; */ /* gboolean */
+
+	/* Display the standard backward arrow button. */
+	/* has-backward-stepper: TRUE; */ /* gboolean */
+
+	/* Display the standard forward arrow button. */
+	/* has-forward-stepper: TRUE; */ /* gboolean */
+
+	/* Display a second backward arrow button on the opposite end of the scrollbar. */
+	/* has-secondary-backward-stepper: FALSE; */ /* gboolean */
+
+	/* Display a second forward arrow button on the opposite end of the scrollbar. */
+	/* has-secondary-forward-stepper: FALSE; */ /* gboolean */
+
+	/* Minimum length of scrollbar slider. */
+	/* min-slider-length: 21; */ /* gint, >= 0 */
+	background-color: #a59f80;
+}

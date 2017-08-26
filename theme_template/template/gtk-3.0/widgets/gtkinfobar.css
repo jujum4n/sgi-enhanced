@@ -1,0 +1,19 @@
+GtkInfoBar {
+	/**
+	* Style properties inheritance:
+	*  GtkInfoBar->GtkHBox->GtkBox->GtkContainer->GtkWidget.
+	*/
+
+	/* Width of the border around the action area of the info bar. */
+	/* action-area-border: 5; */ /* gint, >= 0 */
+
+	/* Spacing between buttons in the action area of the info bar. */
+	/* button-spacing: 6; */ /* gint, >= 0 */
+
+	/* The width of the border around the content content area of the info bar. */
+	/* content-area-border: 8; */ /* gint, >= 0 */
+
+	/* The default spacing used between elements of the content area of the info bar. */
+	/* content-area-spacing: 16; */ /* gint, >= 0 */
+
+}

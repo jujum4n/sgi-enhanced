@@ -1,0 +1,13 @@
+GtkToolItemGroup {
+	/**
+	* Style properties inheritance:
+	*  GtkToolItemGroup->GtkContainer->GtkWidget.
+	*/
+
+	/* Size of the expander arrow. */
+	/* expander-size: 16; */ /* gint, >= 0 */
+
+	/* Spacing between expander arrow and caption. */
+	/* header-spacing: 2; */ /* gint, >= 0 */
+
+}

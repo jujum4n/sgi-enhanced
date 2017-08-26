@@ -1,0 +1,13 @@
+GtkAssistant {
+	/**
+	* Style properties inheritance:
+	*  GtkAssistant->GtkWindow->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Number of pixels around the content pages. */
+	/* content-padding: 1; */ /* gint, >= 0 */
+
+	/* Number of pixels around the header. */
+	/* header-padding: 6; */ /* gint, >= 0 */
+
+}

@@ -1,0 +1,19 @@
+GtkDialog {
+	/**
+	* Style properties inheritance:
+	*  GtkDialog->GtkWindow->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Width of border around the button area at the bottom of the dialog. */
+	/* action-area-border: 5; */ /* gint, >= 0 */
+
+	/* Spacing between buttons. */
+	/* button-spacing: 6; */ /* gint, >= 0 */
+
+	/* Width of border around the main dialog area. */
+	/* content-area-border: 2; */ /* gint, >= 0 */
+
+	/* The default spacing used between elements of the content area of the dialog, as returned by. */
+	/* content-area-spacing: 0; */ /* gint, >= 0 */
+
+}

@@ -1,0 +1,31 @@
+GtkRange {
+	/**
+	* Style properties inheritance:
+	*  GtkRange->GtkWidget.
+	*/
+
+	/* How far in the x direction to move the arrow when the button is depressed. */
+	/* arrow-displacement-x: 0; */ /* gint */
+
+	/* How far in the y direction to move the arrow when the button is depressed. */
+	/* arrow-displacement-y: 0; */ /* gint */
+
+	/* The arrow size proportion relative to the scroll button size. */
+	/* arrow-scaling: 0.5; */ /* gfloat, [0,1] */
+
+	/* Width of scrollbar or scale thumb. */
+	/* slider-width: 14; */ /* gint, >= 0 */
+
+	/* Length of step buttons at ends. */
+	/* stepper-size: 14; */ /* gint, >= 0 */
+
+	/* The spacing between the stepper buttons and thumb. */
+	/* stepper-spacing: 0; */ /* gint, >= 0 */
+
+	/* Spacing between thumb/steppers and outer trough bevel. */
+	/* trough-border: 1; */ /* gint, >= 0 */
+
+	/* Whether to draw the trough across the full length of the range or to exclude the steppers and their spacing. */
+	/* trough-under-steppers: TRUE; */ /* gboolean */
+
+}

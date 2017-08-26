@@ -1,0 +1,13 @@
+GtkMenuBar {
+	/**
+	* Style properties inheritance:
+	*  GtkMenuBar->GtkMenuShell->GtkContainer->GtkWidget.
+	*/
+
+	/* Amount of border space between the menubar shadow and the menu items. */
+	/* internal-padding: 1; */ /* gint, >= 0 */
+
+	/* Style of bevel around the menubar. */
+	/* shadow-type: GTK_SHADOW_OUT; */ /* GtkShadowType */
+
+}

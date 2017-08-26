@@ -1,0 +1,25 @@
+GtkToolbar {
+	/**
+	* Style properties inheritance:
+	*  GtkToolbar->GtkContainer->GtkWidget.
+	*/
+
+	/* Type of bevel around toolbar buttons. */
+	/* button-relief: GTK_RELIEF_NONE; */ /* GtkReliefStyle */
+
+	/* Amount of border space between the toolbar shadow and the buttons. */
+	/* internal-padding: 0; */ /* gint, >= 0 */
+
+	/* Maximum amount of space an expandable item will be given. */
+	/* max-child-expand: 2147483647; */ /* gint, >= 0 */
+
+	/* Style of bevel around the toolbar. */
+	/* shadow-type: GTK_SHADOW_OUT; */ /* GtkShadowType */
+
+	/* Size of spacers. */
+	/* space-size: 12; */ /* gint, >= 0 */
+
+	/* Whether spacers are vertical lines or just blank. */
+	/* space-style: GTK_TOOLBAR_SPACE_LINE; */ /* GtkToolbarSpaceStyle */
+
+}

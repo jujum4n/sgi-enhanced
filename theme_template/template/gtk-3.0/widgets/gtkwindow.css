@@ -1,0 +1,13 @@
+GtkWindow {
+	/**
+	* Style properties inheritance:
+	*  GtkWindow->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Height of resize grip. */
+	/* resize-grip-height: 16; */ /* gint, >= 0 */
+
+	/* Width of resize grip. */
+	/* resize-grip-width: 16; */ /* gint, >= 0 */
+
+}

@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=Justin Chase
+Comment=sgi-enhanced theme
+
+Type=X-GNOME-Metatheme
+Encoding=UTF-8
+#GtkTheme=sgi-enhanced
+#MetacityTheme=<yourawesometheme>
+#IconTheme=<name_of_icon_theme>
+#CursorTheme=sgi
+#CursorSize=<24>

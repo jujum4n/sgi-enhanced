@@ -1,0 +1,22 @@
+/**
+ * Theme name: <aweseome-theme>
+ * Author    : <you@domain.tld>
+ * License   : Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported 
+ *             (CC BY-NC-SA 3.0)
+ *             http://creativecommons.org/licenses/by-nc-sa/3.0/
+ */
+
+
+/**
+ * Main theme file.
+ *
+ * The files included with contain (templates for) the
+ * following theme aspects:
+ * - colors.css: Color definitions, used in theming rules.
+ * - widgets.css: Theming rules for *widget classes*. 
+ * - widgets/widgetname.css: Properties for a specific widget, including
+ *   widgets derived from it.
+ */
+
+@import url("colors.css");
+@import url("widgets.css");

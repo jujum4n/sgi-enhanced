@@ -1,0 +1,13 @@
+GtkScrolledWindow {
+	/**
+	* Style properties inheritance:
+	*  GtkScrolledWindow->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Number of pixels between the scrollbars and the scrolled window. */
+	/* scrollbar-spacing: 3; */ /* gint, >= 0 */
+
+	/* Whether to place scrollbars within the scrolled window's bevel. */
+	/* scrollbars-within-bevel: FALSE; */ /* gboolean */
+
+}

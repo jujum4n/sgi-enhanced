@@ -1,0 +1,161 @@
+/**
+ * Style classes.
+ *
+ * The style classes rules apply to any widget defining that class.
+ * For example, the .buttons class applies to all types of buttons,
+ * and allows you to theme all these types of buttons using a single
+ * set of rules.
+ *
+ * You can use all style properties defined for any of the class
+ * members in the class rules. These properties can be found in
+ * 'Template\Widgets\WidgetName.css'.
+ */
+
+.accelerator {
+	/* Members: GtkAccelLabel. */
+}
+
+.frame {
+	/* Members: GtkFrame. */
+background-color: #a59f80;
+}
+
+.radio {
+	/* Members: GtkCellRendererToggle, GtkRadioMenuItem, GtkRadioButton. */
+}
+
+.calendar {
+	/* Members: GtkCalendar. */
+}
+
+.check {
+	/* Members: GtkCheckMenuItem, GtkCellRendererToggle, GtkCheckButton. */
+}
+
+.menubar {
+	/* Members: GtkMenuBar. */
+}
+
+.spinner {
+	/* Members: GtkSpinner. */
+}
+
+.menu {
+	/* Members: GtkCheckMenuItem, GtkRadioMenuItem, GtkMenu, GtkMenuItem. */
+background-color: #a59f80;
+}
+
+.tooltip {
+	/* Members: GtkTooltip. */
+}
+
+.cell {
+	/* Members: GtkCellRendererToggle. */
+}
+
+.viewport {
+	/* Members: GtkViewport. */
+}
+
+.grip {
+	/* Members: GtkWindow. */
+}
+
+.popup {
+	/* Members: GtkMenu. */
+}
+
+.scrolled-window {
+	/* Members: GtkScrolledWindow. */
+}
+
+.slider {
+	/* Members: GtkScale, GtkScrollbar. */
+}
+
+.notebook {
+	/* Members: GtkNotebook. */
+}
+
+.trough {
+	/* Members: GtkProgressBar, GtkScale, GtkScrollbar. */
+}
+
+.background {
+	/* Members: GtkWindow. */
+background-color: #a59f80;
+}
+
+.toolbar {
+	/* Members: GtkToolbar. */
+background-color: #a59f80;
+}
+
+.dock {
+	/* Members: GtkHandleBox. */
+}
+
+.button {
+background-color: #a59f80;	/* Members: GtkCheckButton, GtkRadioButton, GtkButton, GtkToggleButton. */
+
+}
+.progressbar {
+	/* Members: GtkProgressBar, GtkCellRendererProgress. */
+}
+
+.arrow {
+	/* Members: GtkArrow. */
+}
+
+.menuitem {
+	/* Members: GtkMenuItem. */
+background-color: #a59f80;
+}
+
+.entry {
+	/* Members: GtkEntry. */
+}
+
+.expander {
+	/* Members: GtkExpander. */
+}
+
+
+/*
+ * Imports for widget-specific theming.
+ */
+
+@import url("widgets/gtkwindow.css");
+@import url("widgets/gtkswitch.css");
+@import url("widgets/gtkscrollbar.css");
+@import url("widgets/gtkcalendar.css");
+@import url("widgets/gtkcombobox.css");
+@import url("widgets/gtkwidget.css");
+@import url("widgets/gtknotebook.css");
+@import url("widgets/gtkmessagedialog.css");
+@import url("widgets/gtktreeview.css");
+@import url("widgets/gtkcheckmenuitem.css");
+@import url("widgets/gtkprogressbar.css");
+@import url("widgets/gtkscale.css");
+@import url("widgets/gtkbuttonbox.css");
+@import url("widgets/gtkinfobar.css");
+@import url("widgets/gtkscrolledwindow.css");
+@import url("widgets/gtkrange.css");
+@import url("widgets/gtkdialog.css");
+@import url("widgets/gtktoolbutton.css");
+@import url("widgets/gtkiconview.css");
+@import url("widgets/gtkmenu.css");
+@import url("widgets/gtkmenuitem.css");
+@import url("widgets/gtkspinbutton.css");
+@import url("widgets/gtktoolbar.css");
+@import url("widgets/gtkcheckbutton.css");
+@import url("widgets/gtkpaned.css");
+@import url("widgets/gtktoolitemgroup.css");
+@import url("widgets/gtkarrow.css");
+@import url("widgets/gtkassistant.css");
+@import url("widgets/gtktextview.css");
+@import url("widgets/gtkexpander.css");
+@import url("widgets/gtkmenubar.css");
+@import url("widgets/gtkentry.css");
+@import url("widgets/gtkbutton.css");
+@import url("widgets/gtkstatusbar.css");

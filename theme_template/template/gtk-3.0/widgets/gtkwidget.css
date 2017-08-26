@@ -1,0 +1,52 @@
+GtkWidget {
+	/**
+	* Style properties inheritance:
+	*  GtkWidget.
+	*/
+
+	/* Aspect ratio with which to draw insertion cursor. */
+	/* cursor-aspect-ratio: 0.04; */ /* gfloat, [0,1] */
+
+	/* Color with which to draw insertion cursor. */
+	/* cursor-color: ; */ /* GdkColor */
+
+	/* Dash pattern used to draw the focus indicator. */
+	/* focus-line-pattern: "\001\001"; */ /* gchar */
+
+	/* Width, in pixels, of the focus indicator line. */
+	/* focus-line-width: 1; */ /* gint, >= 0 */
+
+	/* Width, in pixels, between focus indicator and the widget 'box'. */
+	/* focus-padding: 1; */ /* gint, >= 0 */
+
+	/* Whether to draw the focus indicator inside widgets. */
+	/* interior-focus: TRUE; */ /* gboolean */
+
+	/* The "link-color" style property defines the color of unvisited links. */
+	/* link-color: ; */ /* GdkColor */
+
+	/* The "scroll-arrow-hlength" style property defines the length of horizontal scroll arrows. */
+	/* scroll-arrow-hlength: 16; */ /* gint, >= 1 */
+
+	/* The "scroll-arrow-vlength" style property defines the length of vertical scroll arrows. */
+	/* scroll-arrow-vlength: 16; */ /* gint, >= 1 */
+
+	/* Color with which to draw the secondary insertion cursor when editing mixed right-to-left and left-to-right text. */
+	/* secondary-cursor-color: ; */ /* GdkColor */
+
+	/* The "separator-height" style property defines the height of separators. */
+	/* separator-height: 0; */ /* gint, >= 0 */
+
+	/* The "separator-width" style property defines the width of separators. */
+	/* separator-width: 0; */ /* gint, >= 0 */
+
+	/* The "visited-link-color" style property defines the color of visited links. */
+	/* visited-link-color: ; */ /* GdkColor */
+
+	/* The "wide-separators" style property defines whether separators have configurable width and should be drawn using a box instead of a line. */
+	/* wide-separators: FALSE; */ /* gboolean */
+
+	/* Whether windows can be dragged by clicking on empty areas. */
+	/* window-dragging: FALSE; */ /* gboolean */
+	background-color: #a59f80;
+}

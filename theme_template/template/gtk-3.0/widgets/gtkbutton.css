@@ -1,0 +1,28 @@
+GtkButton {
+	/**
+	* Style properties inheritance:
+	*  GtkButton->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* How far in the x direction to move the child when the button is depressed. */
+	/* child-displacement-x: 0; */ /* gint */
+
+	/* How far in the y direction to move the child when the button is depressed. */
+	/* child-displacement-y: 0; */ /* gint */
+
+	/* The "default-border" style property defines the extra space to add around a button that can become the default widget of its window. */
+	/* default-border: ; */ /* GtkBorder */
+
+	/* The "default-outside-border" style property defines the extra outside space to add around a button that can become the default widget of its window. */
+	/* default-outside-border: ; */ /* GtkBorder */
+
+	/* Whether the child_displacement_x/child_displacement_y properties should also affect the focus rectangle. */
+	/* displace-focus: FALSE; */ /* gboolean */
+
+	/* Spacing in pixels between the image and label. */
+	/* image-spacing: 2; */ /* gint, >= 0 */
+
+	/* Sets the border between the button edges and child. */
+	/* inner-border: ; */ /* GtkBorder */
+	background-color: #a59f80;
+}

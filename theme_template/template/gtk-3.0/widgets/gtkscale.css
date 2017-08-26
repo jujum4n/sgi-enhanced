@@ -1,0 +1,13 @@
+GtkScale {
+	/**
+	* Style properties inheritance:
+	*  GtkScale->GtkRange->GtkWidget.
+	*/
+
+	/* Length of scale's slider. */
+	/* slider-length: 31; */ /* gint, >= 0 */
+
+	/* Space between value text and the slider/trough area. */
+	/* value-spacing: 2; */ /* gint, >= 0 */
+
+}

@@ -1,0 +1,10 @@
+GtkMessageDialog {
+	/**
+	* Style properties inheritance:
+	*  GtkMessageDialog->GtkDialog->GtkWindow->GtkBin->GtkContainer->GtkWidget.
+	*/
+
+	/* Width of border around the label and image in the message dialog. */
+	/* message-border: 12; */ /* gint, >= 0 */
+
+}

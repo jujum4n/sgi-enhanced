@@ -1,0 +1,10 @@
+GtkSpinButton {
+	/**
+	* Style properties inheritance:
+	*  GtkSpinButton->GtkEntry->GtkWidget.
+	*/
+
+	/* Style of bevel around the spin button. */
+	/* shadow-type: GTK_SHADOW_IN; */ /* GtkShadowType */
+
+}
